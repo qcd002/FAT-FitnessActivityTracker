@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="410dp"
+        android:text="\nView Stats - 	You will be able to view your current individual statistics\n\nTrack Exercises - You will be able to track calories burned from exercise\n\nTrack Food - You will be able to track nutrition facts\n\nUpdate Stats - You will be able to update individualized goals and/or measuremnts\n\nEdit Account - You will be able to edit account information\n\nHelp - You can review the tutorial and terminology here"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+</LinearLayout>

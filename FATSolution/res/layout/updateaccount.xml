@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/updateName"
+        android:layout_marginBottom="58dp"
+        android:onClick="onClick_Edit_Account_Home"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/homeButton"
+        android:layout_alignBottom="@+id/homeButton"
+        android:layout_alignLeft="@+id/updateName"
+        android:text="Update" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Update Acount"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/updateName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/updatePw"
+        android:layout_alignLeft="@+id/textView1"
+        android:ems="10"
+        android:hint="Update Name" />
+
+    <EditText
+        android:id="@+id/updatePw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/updateEmail"
+        android:layout_alignLeft="@+id/updateName"
+        android:ems="10"
+        android:hint="Update Password"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/updateEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/homeButton"
+        android:layout_alignLeft="@+id/updatePw"
+        android:layout_marginBottom="89dp"
+        android:ems="10"
+        android:hint="Update Email "
+        android:inputType="textEmailAddress" />
+
+</RelativeLayout>

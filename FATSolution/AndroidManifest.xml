@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="se.shsu.fat"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="se.shsu.fat.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:name="se.shsu.fat.Home" 
+            android:label = ".Home" >
+            <intent-filter>
+                <action android:name="se.shsu.fat.Home" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+            </activity>
+            
+     
+        
+                <activity 
+            android:name=".Exercise" 
+            android:label = "@string/app_name" >
+            <intent-filter>
+                <action android:name="se.shsu.Exercise" />
+		
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+            </activity> 
+         <activity 
+            android:name=".Stats" 
+            android:label = "@string/app_name" >
+            <intent-filter>
+                <action android:name="se.shsu.Stats" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+            </activity>
+            
+           <activity 
+            android:name=".Food" 
+            android:label = "@string/app_name" >
+            <intent-filter>
+                <action android:name="se.shsu.Food" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+            </activity>
+            <activity 
+            android:name=".Update_Account" 
+            android:label = "@string/app_name" >
+            <intent-filter>
+                <action android:name="se.shsu.Update_Account" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+            </activity>           
+            
+            <activity 
+            android:name=".Help" 
+            android:label = "@string/app_name" >
+            <intent-filter>
+                <action android:name="se.shsu.Help" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+            </activity>  
+            
+              <activity 
+            android:name=".Sign_up" 
+            android:label = "@string/app_name" >
+            <intent-filter>
+                <action android:name="se.shsu.Sign_up" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+            </activity>      
+            
+            <activity 
+            android:name=".Forgot_Pw" 
+            android:label = "@string/app_name" >
+            <intent-filter>
+                <action android:name="se.shsu.Forgot_Pw" />
+		
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+            </activity>  
+        
+             <activity 
+            android:name=".terms" 
+            android:label = "@string/app_name" >
+            <intent-filter>
+                <action android:name="se.shsu.terms" />
+		
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+            </activity>          
+            
+            <activity 
+            android:name="se.shsu.fat.Editstats" 
+            android:label = "@string/app_name" >
+            <intent-filter>
+                <action android:name="se.shsu.editstats" />
+		
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+            </activity> 
+           
+    </application>
+
+</manifest>
